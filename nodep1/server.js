@@ -13,7 +13,7 @@ app.get('/firstapi',(req,res)=>{
         age: 30,
         city: 'New York'
     }
-    res.send(s)
+   return  res.send(s)
 })
 
 app.get('/secondapi',(req,res)=>{

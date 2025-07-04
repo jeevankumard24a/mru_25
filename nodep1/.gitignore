@@ -1,0 +1,65 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+logs/*.log
+*.log.*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Optional build output
+dist/
+build/
+tmp/
+temp/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# IDEs and editors
+.idea/           # WebStorm project settings
+.vscode/
+
+# Optional REPL history
+.node_repl_history
+
+# Test coverage and debug
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
+*.gz
+*.zip
+
+# TypeScript (optional)
+*.tsbuildinfo
+
+# Others
+*.swp
+*.swo

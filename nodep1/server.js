@@ -25,6 +25,15 @@ app.get('/secondapi',(req,res)=>{
     res.send(s)
 })
 
+app.get('/jons2',(req,res)=>{
+    const s= ["Apple", "Banana", "Orange", "Mango"]
+
+    return res.send(s)
+
+})
+
+
+
 
 app.listen(PORT,()=>{
     console.log(`Server is running on porttt ${PORT}`)
